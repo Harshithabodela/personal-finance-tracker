@@ -7,7 +7,7 @@ import { selectUser } from "../slices/userSlice";
 
 import { useDispatch } from "react-redux";
 
-const BASE_URL = "http://localhost:8000/api/v1/";
+const BASE_URL = `${process.env.REACT_APP_API_URL || "http://localhost:8000"}/api/v1/`;
 
 const GlobalContext = React.createContext();
 

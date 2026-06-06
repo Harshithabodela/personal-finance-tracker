@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon app.js"
   },
-  "author": "Pramitha Jayasooriya",
+  "author": "Harshitha",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",

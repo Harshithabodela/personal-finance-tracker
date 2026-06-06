@@ -22,7 +22,7 @@ const Footer = () => {
                 Email Support
               </div>
               <div className="absolute top-[28px] left-[49.71px] leading-[24px] font-medium flex items-center w-[177.95px]">
-                lpramithamj@gmail.com
+                harshithabodela@gmail.com
               </div>
               <img
                 className="absolute top-[6px] left-[0px] w-[39.77px] h-10"

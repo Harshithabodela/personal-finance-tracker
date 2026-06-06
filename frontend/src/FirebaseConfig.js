@@ -3,12 +3,12 @@ import {getAuth,GoogleAuthProvider,FacebookAuthProvider} from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCwLPtQVJKPWi1fWQIs_wHD8b-OBB81S7E",
-  authDomain: "personal-finance-tracker-auth.firebaseapp.com",
-  projectId: "personal-finance-tracker-auth",
-  storageBucket: "personal-finance-tracker-auth.appspot.com",
-  messagingSenderId: "309556974083",
-  appId: "1:309556974083:web:53d56405660169d1deb436"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);

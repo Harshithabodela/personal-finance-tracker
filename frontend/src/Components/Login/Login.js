@@ -51,7 +51,7 @@ const Login = () => {
   const checkUser = async (email) => {
     try {
       const response = await axios.get(
-        `http://localhost:8000/api/user/${email}/`,
+        `${process.env.REACT_APP_API_URL || 'http://localhost:8000'}/api/user/${email}/`,
       );
       console.log(response);
 

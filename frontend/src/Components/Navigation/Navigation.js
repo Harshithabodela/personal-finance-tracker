@@ -19,7 +19,7 @@ function Navigation({active, setActive}) {
                 <img src={avatar} alt="" />
                 {/* <img src={user.photoURL} alt="profile picture" /> */}
                 <div className="text">
-                    {/* <h2>Pramitha</h2> */}
+                    {/* <h2>Harshitha</h2> */}
                     {user && (
             <div class="bg-purple-400 p-4 rounded-lg shadow-md">
             <span class="text-white text-xl font-bold">{user.email}</span>

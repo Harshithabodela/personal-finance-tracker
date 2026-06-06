@@ -50,30 +50,30 @@ const About = () => {
         </div>
 
         <div className="mt-8 flex items-center">
-          <a href="pramitha-app-store-link" target="_blank" rel="noopener noreferrer">
+          <a href="harshitha-app-store-link" target="_blank" rel="noopener noreferrer">
             <img
               src="https://sony.scene7.com/is/image/sonyglobalsolutions/feature8-2-2?$ColumnStatic$&fmt=png-alpha"
               alt="App Store"
               className="w-50 h-10 mr-4"
             />
           </a>
-          <a href="pramitha-play-store-link" target="_blank" rel="noopener noreferrer">
+          <a href="harshitha-play-store-link" target="_blank" rel="noopener noreferrer">
             <img
               src="https://miro.medium.com/v2/resize:fit:646/1*25shocQfPc2XMeHnrP27Vw.png"
               alt="Play Store"
               className="w-50 h-20 mr-4"
             />
           </a>
-          <a href="pramitha-fb-link" target="_blank" rel="noopener noreferrer">
+          <a href="harshitha-fb-link" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="text-blue-500 text-2xl mr-4" />
           </a>
-          <a href="pramitha-twitter-link" target="_blank" rel="noopener noreferrer">
+          <a href="harshitha-twitter-link" target="_blank" rel="noopener noreferrer">
             <FaTwitter className="text-blue-500 text-2xl mr-4" />
           </a>
-          <a href="pramitha-instagram-link" target="_blank" rel="noopener noreferrer">
+          <a href="harshitha-instagram-link" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="text-blue-500 text-2xl mr-4" />
           </a>
-          <a href="https://www.linkedin.com/in/pramitha-jayasooriya-8b710b1b0/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/harshithabodela/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-blue-500 text-2xl" />
           </a>
         </div>
