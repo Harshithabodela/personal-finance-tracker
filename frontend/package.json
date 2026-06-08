@@ -60,5 +60,8 @@
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3"
+  },
+  "overrides": {
+    "chokidar": "^3.6.0"
   }
 }

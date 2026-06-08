@@ -18,9 +18,7 @@ const Signup = () => {
       setPasswordMatchError("Passwords do not match");
     } else {
       await signup(email, password);
-      window.location.reload();
     }
-    
   }
 
   return (

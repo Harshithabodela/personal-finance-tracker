@@ -23,10 +23,9 @@ export const useSignup = () => {
     }
     if (response.ok) {
       localStorage.setItem('user', JSON.stringify(json))
-        window.location.href = "/dashboard";
       dispatch({type: 'LOGIN', payload: json})
       setIsLoading(false)
-      
+      window.location.href = "/";
     }
   }
 
